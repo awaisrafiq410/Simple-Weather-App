@@ -1,0 +1,221 @@
+
+
+[data-v-1370a5cc] { 
+    box-sizing: border-box;
+} 
+
+.mobile-padding { 
+    padding-left: 3pt; 
+    padding-right: 3pt;
+} 
+
+@media screen and (min-width: 768px){     
+.mobile-padding { 
+    padding-left: 0; 
+    padding-right: 0;
+} 
+}     
+
+.mobile-padding[data-v-1370a5cc] { 
+    padding-left: 3pt; 
+    padding-right: 3pt;
+} 
+
+@media screen and (min-width: 768px){     
+.mobile-padding[data-v-1370a5cc] { 
+    padding-left: 0; 
+    padding-right: 0;
+} 
+}     
+
+.current-container[data-v-1370a5cc] { 
+    width: 100%; 
+    display: flex; 
+    flex-direction: column;
+} 
+
+.grid-container { 
+    display: grid; 
+    grid-gap: 32pt; 
+    row-gap: 32pt; 
+    column-gap: 32pt;
+} 
+
+.grid-container { 
+    display: grid; 
+    grid-gap: 16pt; 
+    row-gap: 16pt; 
+    column-gap: 16pt;
+} 
+
+.grid-4-5, .grid-5-4 { 
+    grid-template-columns: minmax(0,1fr);
+} 
+
+@media screen and (min-width: 768px){     
+.grid-4-5 { 
+    grid-template-columns: 4fr 5fr; 
+    grid-template-columns: minmax(0,4fr) minmax(0,5fr);
+} 
+}     
+
+.section-content { 
+    width: 100%; 
+    max-width: 100%; 
+    padding: 24pt 0; 
+    padding-top: 24pt; 
+    padding-right: 0px; 
+    padding-bottom: 24pt; 
+    padding-left: 0px;
+} 
+
+@media screen and (min-width: 900px){     
+.section-content { 
+    max-width: 900px;
+} 
+}     
+
+.section-content { 
+    width: 100%; 
+    max-width: 900px; 
+    padding: 24pt 0; 
+    padding-top: 24pt; 
+    padding-right: 0px; 
+    padding-bottom: 24pt; 
+    padding-left: 0px;
+} 
+
+.section { 
+    width: 100%; 
+    display: grid; 
+    justify-items: center; 
+    min-height: 250px;
+} 
+
+.section { 
+    width: 100%; 
+    display: grid; 
+    justify-items: center;
+} 
+
+#weather-widget { 
+    font-family: Space Grotesk,Arial,sans-serif; 
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale; 
+    color: #48484a; 
+    width: 100%; 
+    margin: 0; 
+    padding: 0; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    padding-top: 0px; 
+    padding-right: 0px; 
+    padding-bottom: 0px; 
+    padding-left: 0px;
+} 
+
+#weather-widget.section { 
+    overflow: revert; 
+    overflow-x: revert; 
+    overflow-y: revert;
+} 
+.wrapper { 
+    min-height: 100%; 
+    height: auto!important; 
+    height: 100%; 
+    margin-bottom: -348px; 
+    padding-top: 20px; 
+    padding-bottom: 348px;
+} 
+
+.text-container { 
+    max-width: 400px;
+} 
+
+.orange-side { 
+    border-left: 1px solid #EB6E4B; 
+    border-left-width: 1px; 
+    border-left-style: solid; 
+    border-left-color: rgb(235, 110, 75);
+} 
+
+.orange-side { 
+    border-left: 1px solid #eb6e4b; 
+    border-left-width: 1px; 
+    border-left-style: solid; 
+    border-left-color: rgb(235, 110, 75);
+} 
+
+.standard-padding { 
+    padding-left: 8pt; 
+    padding-right: 8pt;
+} 
+
+.weather-items[data-v-1b8538d2] { 
+    padding-left: 0; 
+    list-style: none; 
+    display: flex; 
+    flex-wrap: wrap; 
+    line-height: 20px; 
+    list-style-position: initial; 
+    list-style-image: initial; 
+    list-style-type: none;
+} 
+
+.orange-side[data-v-1370a5cc] { 
+    border-left: 1px solid #eb6e4b; 
+    border-left-width: 1px; 
+    border-left-style: solid; 
+    border-left-color: rgb(235, 110, 75);
+} 
+
+.text-container[data-v-1370a5cc] { 
+    max-width: 400px;
+} 
+
+.standard-padding[data-v-1370a5cc] { 
+    padding-left: 16pt; 
+    padding-right: 16pt;
+} 
+
+.weather-items[data-v-1370a5cc] { 
+    margin-top: 4pt; 
+    margin-bottom: 0;
+} 
+
+li[data-v-1b8538d2]  { 
+    margin-right: 16pt; 
+    display: flex; 
+    align-items: center; 
+    flex-wrap: nowrap;
+} 
+
+svg:not(:root) { 
+    overflow: hidden; 
+    overflow-x: hidden; 
+    overflow-y: hidden;
+} 
+
+.icon-snow[data-v-dccd94fc] { 
+    height: 12pt;
+} 
+
+li svg[data-v-1b8538d2]  { 
+    margin-right: 2pt;
+} 
+
+.icon-pressure[data-v-7bdd0738] { 
+    height: 12pt; 
+    width: auto;
+} 
+
+.symbol { 
+    margin-right: 4pt;
+} 
+
+.icon-wind-direction[data-v-47880d39] { 
+    height: 8pt;
+} 
+
